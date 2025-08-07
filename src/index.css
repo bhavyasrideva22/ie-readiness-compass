@@ -17,8 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 207 89% 54%;
     --primary-foreground: 210 40% 98%;
+    --primary-glow: 200 91% 67%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -26,15 +27,38 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 158 64% 52%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 207 89% 54%;
+
+    /* Assessment specific colors */
+    --assessment-bg: 240 20% 98%;
+    --assessment-card: 0 0% 100%;
+    --progress-bg: 210 30% 95%;
+    --success: 142 76% 36%;
+    --warning: 38 92% 50%;
+    --info: 207 89% 54%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(207 89% 54%), hsl(200 91% 67%));
+    --gradient-hero: linear-gradient(135deg, hsl(207 89% 54%), hsl(158 64% 52%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(210 30% 98%));
+    --gradient-subtle: linear-gradient(180deg, hsl(240 20% 98%), hsl(210 30% 95%));
+
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(207 89% 54% / 0.1);
+    --shadow-card: 0 4px 12px -2px hsl(222.2 84% 4.9% / 0.08);
+    --shadow-glow: 0 0 30px hsl(207 89% 54% / 0.2);
+
+    /* Transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 0.5rem;
 
